@@ -1,0 +1,32 @@
+body, html{
+margin: 0%;
+height: 100%;
+}
+
+header{
+height: 100%;
+background-image:url('./photo-1476224203421-9ac39bcb3327\ 1\ \(1\).png') ;
+color: white;
+}
+  
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.top-header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 450px;
+}
+
+.middle-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.middle-header .action-text{
+    border-bottom: 2px solid white;
+}
